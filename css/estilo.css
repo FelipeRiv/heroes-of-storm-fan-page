@@ -1,0 +1,1072 @@
+* {
+	font-family: "Metronic Pro-5";
+}
+
+/* estilos genereales de la pagina */
+body {
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body.index-bg {
+
+	/* background-image: url(../multimedia/img/paven.png); */
+	background-image: url(../images/fondos/bg-BoE-2.jpg);
+	background-image: url(../images/fondos/bg-arth-1.jpg);
+	background-image: url(../images/fondos/bg-arthVsLight.jpg);
+	background-image: url(../images/fondos/bg-blueDW.jpg);
+	background-image: url(../images/fondos/bg-cursedHollow.jpg);
+	/* background-image: url(../images/fondos/bg-hots-1.jpg); */
+	/* background-image: url(../images/fondos/bg-malthael.jpg); */
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+body.contact-bg {
+
+	background-image: url(../images/fondos/bg-BoE.jpg);
+	/* background-image: url(../images/fondos/bg-arthVsLight.jpg); */
+	/* background-image: url(../images/battlegrounds/bg-sky.jpg); */
+	/* background-image: url(../images/battlegrounds/bg-warh.jpg); */
+	/* background-image: url(../images/battlegrounds/bg-black.jpg); */
+	/* background-image: url(../images/battlegrounds/bg-dragon.jpg); */
+	/* background-image: url(../images/battlegrounds/bg-sky.jpg); */
+
+	/* background-image: url(../images/battlegrounds/bg-puni.jpg); */
+	/* background-image: url(../images/battlegrounds/bg-mines.jpg); */
+	/* background-image: url(../images/battlegrounds/bg-brax.jpg); */
+	/* background-image: url(../images/fondos/bg-malthael.jpg); */
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+body.wall-bg {
+	/* background-image: url(../images/fondos/bg-arthVsLight.jpg); */
+	/* background-image: url(../images/battlegrounds/bg-sky.jpg); */
+	/* background-image: url(../images/battlegrounds/bg-dragon.jpg); */
+	
+	/* background-image: url(../images/battlegrounds/bg-infernalShrines.jpg); */
+	background-image: url(../images/battlegrounds/bg-mines.jpg);
+	/* background-image: url(../images/battlegrounds/bg-brax.jpg); */
+	/* background-image: url(../images/fondos/bg-malthael.jpg); */
+	
+}
+
+body.heroes-bg{
+	background-image: url(../images/battlegrounds/bg-infernalShrines.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+body.story-bg{
+	background-image: url(../images/battlegrounds/bg-black.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+body.battleGround-bg{
+	background-image: url(../images/battlegrounds/bg-towers.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+.fix-bottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.clearfix {
+	float: none;
+}
+
+html body {
+	overflow-x: hidden;
+}
+
+.wd-45{
+	width: 45%;
+}
+
+.mt-100 {
+	margin-top: 100px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.mb-420 {
+	margin-bottom: 420px;
+}
+
+.opct-9 {
+	opacity: 0.9;
+}
+
+.opct-8 {
+	opacity: 0.8;
+}
+
+.opct-7 {
+	opacity: 0.7;
+}
+
+.opct-6 {
+	opacity: 0.6;
+}
+
+.d-flex-wrap {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+/* background gradientes */
+
+/*horizontal tono 1  */
+.bg-h-1 {
+	background: -webkit-gradient(linear, 67% 10%, 12% 40%, from(#092b99), to(rgb(80, 1, 184)));
+
+}
+
+/* horizontal tono 2 */
+.bg-h-2 {
+	background: -webkit-gradient(linear, 67% 10%, 12% 40%, from(#170999), to(rgb(80, 1, 184)));
+
+}
+
+/* vertical tipo footer */
+.bg-v-1 {
+	background: linear-gradient(to bottom, #092b99, rgb(60, 2, 136));
+
+}
+
+.bg-btn-orange {
+	background: linear-gradient(90deg, rgba(175, 22, 22, 1) 0%, rgba(214, 78, 19, 1) 35%, rgba(255, 145, 0, 1) 100%);
+}
+
+.bg-btn-orange2 {
+	background: linear-gradient(90deg, rgb(255, 124, 2) 0%, rgb(255, 105, 41) 35%, rgba(255, 145, 0, 1) 100%);
+}
+
+.no-border {
+	border: none;
+	border: 0.1px solid rgb(123, 22, 255) !important;
+}
+
+/* Fin background gradientes */
+
+/* estilos generales a losformularios */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+	border: 1px solid #c9c9c9;
+	box-shadow: 0px 0px 2px #ccc inset;
+	background: white;
+	/* sh */
+	padding: 2px 1px 2px;
+	/* padding: 1px;
+	padding-top: 2px;
+	padding-bottom: 2px; */
+	color: gray;
+	transition: all 300ms;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+	border: 1px solid #70b231;
+	color: black;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+	display: block;
+	border-radius: 2px;
+	width: 60px;
+	padding: 3px;
+	background-color: #70b231;
+	border: 1px solid green;
+	cursor: pointer;
+	color: white;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+	box-shadow: 0px 0px 4px gray;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+button:active {
+	box-shadow: 0px 0px 5px gray inset;
+	text-shadow: 0px 0px 1px #ccc;
+}
+
+/* estilos generales para los enlaces */
+a {
+	color: white !important;
+	text-decoration: none;
+}
+
+a:hover {
+	color: gold!important;
+	text-decoration: none !important;
+}
+
+
+a:visited {
+	color: white;
+}
+
+/* colores generales */
+.red {
+	color: #9b2422;
+	font-weight: bold;
+}
+
+.orange {
+	color: #d69d2a;
+	font-weight: bold;
+}
+
+.blue {
+	color: #0c73f2;
+	font-weight: bold;
+}
+
+/* fuentes de la pagina */
+@font-face {
+	font-family: "nevis";
+	src: url("../fuentes/nevis.eot");
+	/* esto es para arreglar la fuente y que se vea en internet explorer*/
+	src: url("../fuentes/nevis.eot?#iefix") format("embedded-opentype");
+	/* se debe de buscar la misma fuente en varias extenciones diferentes*/
+	src: url("../fuentes/nevis.woff") format("woff");
+	src: url("../fuentes/nevis.ttf") format("truetype");
+	src: url("../fuentes/nevis.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "fajala";
+	src: url("../fuentes/FjallaOne-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* la fuente que vamos a usar para los iconos se descargo desde el siguiente enlace
+https://www.fontsquirrel.com/fonts/web-symbols */
+@font-face {
+	font-family: "iconos";
+	src: url("../fuentes/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg"),
+		url(../fuentes/websymbols-regular-webfont.eot);
+	/* esto es para arreglar la fuente y que se vea en internet explorer*/
+	src: url("../fuentes/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype");
+	src: url("../fuentes/websymbols-regular-webfont.woff") format("woff");
+	src: url("../fuentes/websymbols-regular-webfont.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* estilo general de los iconos */
+/* este icono se le puede cambiar el tamaño o el color. las instrucciones en:
+https://www.fontsquirrel.com/fonts/web-symbols*/
+.iconos {
+	font-family: iconos;
+	float: left;
+
+	/* sh */
+	margin: -2px 5px 0px 0px;
+	/* margin-right: 5px;
+	margin-top: -2px; */
+}
+
+/* estilo general para limpiar los elementos que flotan */
+.clearfix {
+	float: none;
+	clear: both;
+
+}
+
+/* estilo de la cabera */
+header {
+	/* min-width: 1024px; */
+	max-width: 1500px;
+	width: 100%;
+	height: 250px;
+	margin: 0px auto;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header #logotipo {
+	width: 25vw;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+
+header #logotipo img {
+	top: 45%;
+	display: block;
+	text-align: center;
+	margin: 0px auto;
+	width: 70%;
+}
+
+/* background video */
+#hero-wrapper {
+	position: absolute;
+	top: 100;
+	left: 100;
+	width: 10%;
+	height: 10%;
+	z-index: -100;
+}
+
+#hero-bg-media {
+	min-width: 10%;
+	min-height: 10%;
+	position: absolute;
+	left: 50%;
+	/* -webkit-transform: translate(-50%,-10%); */
+	transform: translate(-25%, -25%);
+}
+
+#hero-bg-img {
+	/* position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: top; */
+	/* -webkit-transform: translate(-50%,-10%); */
+	/* transform: translate(-35%,-15%); */
+}
+
+/* Fin background video */
+
+
+
+header h1 {
+	text-align: center;
+
+	/* sh */
+	font: 40px "Metronic Pro-5", "nevis";
+	/* font-size: 40px;
+	font-family: "nevis"; */
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-top: 10px;
+	text-shadow: 0px 2px 1px #333333;
+	transition: all 3ms;
+
+}
+
+header h1:hover {
+	text-shadow: 0px 2px 1px #333333, 0px 0px 4px #70b231;
+}
+
+header h1 a {
+	color: white;
+}
+
+.title-h4 {
+	color: black;
+	font-size: 28px;
+}
+
+.text-p4 {
+	color: black;
+	font-size: 18px;
+}
+
+/* estilo de la menu */
+nav {
+	/* min-width: 1250px; */
+	max-width: 1250px;
+	/* width: 100%; */
+	height: 40px;
+	/* #333 antes */
+	/* background-color: rgb(0, 37, 204); */
+	background: -webkit-gradient(linear, 67% 10%, 12% 40%, from(#092b99), to(rgb(80, 1, 184)));
+	color: white;
+	/* margin-left: 12%; */
+	margin: 0px auto;
+
+	border-radius: 200px;
+
+	/* sh */
+	font: 14px "Metronic Pro-5", sans-serif, helvetica, Arial;
+	/* font-family: sans-serif, Helvetica, Arial;
+	font-size: 14px; */
+	box-shadow: 0px 0px 2px rgb(255, 255, 255);
+	position: relative;
+	z-index: 100;
+}
+
+nav ul {
+	list-style: none;
+	text-decoration: none;
+	margin: 0px auto;
+	text-align: center;
+	width: 1000px;
+}
+
+/* icono nav menú */
+#img-nav {
+	width: 33px;
+	border-radius: 100px;
+}
+
+
+
+
+nav>ul>li {
+	line-height: 40px;
+	float: left;
+	/* border-right: 1px solid gray; */
+	transition: all 300ms;
+}
+
+nav>ul>li:first-child {
+	line-height: 40px;
+	float: left;
+	border-right: none;
+	transition: all 300ms;
+}
+
+nav>ul>li a {
+	display: block;
+	/* sh */
+	/* padding-right: 20px;
+	padding-left: 20px;		 */
+	padding: 0px 20px 0px 20px;
+	color: white !important;
+	text-decoration: none;
+
+}
+
+nav>ul>li a:first-child {
+	border-left: none;
+}
+
+nav>ul>li:hover:not(:first-child) {
+	background: linear-gradient(20deg, rgb(211, 211, 211) 2, transparent);
+	/* box-shadow: 0px 0px 10px 1px yellow inset; */
+	box-shadow: 0px 0px 10px 5px rgb(58, 89, 231) inset;
+}
+
+nav>ul>li:hover:first-child {
+	border: none;
+	/* transform: scale(1.3); */
+}
+
+
+/* menu desplegable */
+nav>ul>li>ul {
+	display: none;
+	/* esto se hace para que no modifique la estructura del sitio web*/
+	position: absolute;
+	width: 200px;
+	box-shadow: 0px 2px 2px rgb(58, 89, 231);
+	z-index: 1;
+
+}
+
+nav>ul>li:hover>ul {
+	display: block;
+
+
+}
+
+nav>ul>li:hover>ul>li {
+	background: -webkit-gradient(linear, 67% 10%, 12% 40%, from(#092b99), to(rgb(80, 1, 184)));
+	border-bottom: 1px solid #d6d6d6;
+	padding: 8px;
+	line-height: 25px;
+	font-size: 13px;
+	transition: all 300ms;
+
+}
+
+/* li del menu desplegable */
+nav>ul>li:hover>ul>li a {
+	color: white;
+}
+
+nav>ul>li:hover>ul>li:hover {
+	box-shadow: 0px 0px 10px 7px rgb(58, 89, 231) inset;
+}
+
+/* index hs titulos */
+#index-h1 {
+	margin: 125px 0px 20px 0px;
+}
+
+#index-h2 {
+	text-align: center;
+
+	/* sh */
+	font: 40px "Metronic Pro-5", "nevis";
+	/* font-size: 40px;
+	font-family: "nevis"; */
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-top: 10px;
+	text-shadow: 0px 2px 1px #333333;
+	transition: all 3ms;
+}
+
+.btn-main {
+
+	text-align: center;
+
+	/* sh */
+	font: 40px "Metronic Pro-5", "nevis";
+	/* font-size: 40px;
+	font-family: "nevis"; */
+	text-transform: uppercase;
+	transition: all 3ms;
+	background: linear-gradient(90deg, rgba(175, 22, 22, 1) 0%, rgba(214, 78, 19, 1) 35%, rgba(255, 145, 0, 1) 100%);
+	width: 200px;
+	padding: 10px 2px 4px;
+	vertical-align: middle;
+	border-radius: 400px;
+	margin: 50px auto;
+}
+
+
+
+/*Fin index hs titulos */
+
+
+
+/* contenedor principal */
+section#contenedor {
+	width: 1250px;
+	min-height: 110px;
+	margin: 0px auto;
+}
+
+/* aside o barra lateral */
+aside,
+#frase {
+	width: 200px;
+	float: left;
+	margin: 30px;
+	/* border: 1px solid #ccc; */
+	box-shadow: 0px 2px 2px #ccc;
+	font-family: sans-serif, Arial, Helvetica;
+	color: white;
+
+}
+
+#frase {
+	width: 200px;
+	padding: 10px;
+	/* sh */
+	font: 14px "Metronic Pro-5", sans-serif;
+	/* font-size: 114px;
+	font-family: sans-serif; */
+}
+
+aside .widget {
+	display: block;
+	width: 180px;
+	margin: 5px auto;
+
+	/* sh */
+	padding: 8px 10px;
+	/* padding: 8px;
+	padding-left: 10px;
+	padding-right: 10px; */
+	font-size: 14px;
+	/* border-bottom: 1px dashed #333333; */
+}
+
+aside .widget:last-child {
+	margin-bottom: 20px;
+}
+
+aside h4 {
+	display: block;
+	/* color: #333; */
+	color: white;
+	width: 100%;
+	text-align: center;
+	/* sh */
+	padding: 2px 0px;
+	/* padding-top: 2px;
+	padding-bottom: 2px; */
+	margin-bottom: 15px;
+	/* background-color: #f2f3f2; */
+	background: linear-gradient(90deg, rgba(175, 22, 22, 1) 0%, rgb(250, 75, 0) 35%, rgba(255, 145, 0, 1) 100%);
+
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+}
+
+/* formularios de la barra lateral*/
+aside article label,
+aside article input[type="text"],
+aside article input[type="email"],
+aside article input[type="password"],
+aside article a {
+	display: block;
+	width: 95%;
+	/* sh */
+	margin: 2px auto;
+	/* margin-top: 2px;
+	margin-bottom: 2px; */
+}
+
+aside article input[type="button"],
+aside article input[type="submit"],
+aside article button {
+	/* sh */
+	margin: 5px auto 10px;
+	/* margin-top: 5px;
+	margin-bottom: 10px; */
+}
+
+aside article label,
+aside article input {
+	margin: 0px auto;
+	text-align: center;
+}
+
+aside li {
+	/* sh */
+	margin: 8px 0px 5px 20px;
+	/* margin-top: 8px;
+	margin-bottom: 5px;
+	margin-left: 20px; */
+	list-style: square;
+}
+
+/* contenido principal */
+
+#principal {
+	float: right;
+	width: 75%;
+	font-family: sans-serif, Arial, Helvetica;
+	margin-right: 20px;
+}
+
+
+#principal2 {
+	float: right;
+	width: 75%;
+	font-family: sans-serif, Arial, Helvetica;
+	margin-right: 20px;
+}
+
+/* contenedor  */
+.MainContainer {
+	/* border: 3px solid black; */
+	width: 1250px;
+	height: 800px;
+	box-sizing: content-box;
+	/* margin-left: 10000px; */
+	font-family: "Metronic Pro-5", sans-serif;
+	/* margin: 2% 10% 2% 0%; */
+	/* margin-left: 5%; */
+	margin: 45px auto 100px;
+	/* margin-top: 30px; */
+
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.container-8 {
+	border: 1px solid gold;
+	width: 1000px;
+	font-family: "Metronic Pro-5", sans-serif;
+	margin: 0px auto;
+
+}
+
+
+
+section .titulo {
+	/* sh */
+	font: 32px "Metronic Pro-5", fajala;
+	/* font-size: 24px;
+	font-family: fajala;
+	font-weight: normal; */
+
+	letter-spacing: 1px;
+	text-align: center;
+
+	/* sh */
+	padding: 20px 0px 10px;
+	/* padding-bottom: 10px;
+	padding-top: 20px; */
+	/* raya donde dice heroes */
+	border-bottom: 1px solid #ccc;
+
+	/* sh */
+	margin: -30px 0px 5px;
+	/* margin-bottom: 5px;
+	margin-top: -30px; */
+}
+
+#principal section {
+	margin-top: 40px;
+	background-color: white;
+	padding: 20px;
+	/* caja principal borde */
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 4px #c9c9c9;
+	/* color: #333333; */
+	/* color: gold; */
+	color: white;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+
+
+#principal section article {
+	/* sh */
+	margin: 20px 10px 20px;
+	/* margin: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px; */
+}
+
+#principal section article .date {
+	/* color: gray; */
+	color: rgb(251, 255, 43);
+	font-size: 14px;
+}
+
+#principal .stickers .sticker1,
+#principal .stickers .sticker2 {
+	position: absolute;
+	margin-top: -55px;
+	z-index: 0;
+}
+
+#principal .stickers .sticker2 {
+	margin-left: 780px;
+}
+
+/* tamaño de los stickers img */
+.stickers img,
+.sticky img {
+	width: 80px;
+}
+
+
+
+#historia {
+	float: right;
+	/* margin */
+	margin: 20px 20px 0px 0px;
+	/* margin-top: 20px;
+	margin-right: 20px; */
+	font-family: "Metronic Pro-5", sans-serif, Arial, Helvetica;
+}
+
+/* index grupo de heroes */
+.heroGroup img {
+	width: 200px;
+	border-radius: 20px;
+	transition: 500ms;
+}
+
+
+
+.battleground-card img {
+	width: 380px;
+	border-radius: 20px;
+	transition: 500ms;
+
+}
+
+.battleground-card img:hover,
+.heroGroup img:hover {
+	transform: scale(1.1);
+	box-shadow: 1px 3px 39px yellow;
+	
+}
+
+.battleGround {
+	width: 45%;
+}
+
+/* Fin index grupo de heroes */
+
+/* Heroes */
+.heroRoleGroup{
+	box-sizing: content-box;
+	/* box-sizing: border-box; */
+}
+
+.heroRoleGroup .circleImg{
+	transition: 0.5s;
+}
+
+.heroRoleGroup .circleImg:hover{
+	transform: scale(1.2);
+}
+
+.heroRoleGroup .role-img{
+	transition: 0.5s;
+	border-radius: 35px;
+}
+.heroRoleGroup .role-img-1{
+	transition: 0.5s;
+	border-radius: 35px;
+	box-shadow:inset 1px 3px 39px blue;
+}
+.heroRoleGroup .role-img-2{
+	transition: 0.5s;
+	border-radius: 35px;
+	box-shadow:inset 1px 3px 39px green;
+}
+.heroRoleGroup .role-img-3{
+	transition: 0.5s;
+	border-radius: 35px;
+	box-shadow:inset 1px 3px 39px orangered;
+}
+.heroRoleGroup .role-img-4{
+	transition: 0.5s;
+	border-radius: 35px;
+	box-shadow:inset 1px 3px 39px red;
+}
+.heroRoleGroup .role-img-5{
+	transition: 0.5s;
+	border-radius: 35px;
+	box-shadow:inset 1px 3px 39px purple;
+}
+
+.heroRoleGroup article{
+	margin: 20px 10px 20px 10px;
+	border-radius: 20px;
+	box-shadow:inset 1px 3px 39px gray;
+	transition: 700ms;
+}
+
+.heroRoleGroup article:hover{
+	box-shadow:inset 1px 3px 39px goldenrod;
+	transform: scale(1.050);
+}
+
+.heroRoleGroup article img:hover{
+	border-radius: 35px;
+	box-shadow:inset 1px 3px 39px gold;
+}
+
+.heroRoleGroup img{
+	width: 70px;
+	margin: 4px;
+}
+/* Fin heroes */
+
+/* Battlegrounds */
+.battleground-box iframe{
+	border-radius: 20px;
+	margin: 30px auto;
+}
+
+/* Fin Battlegrounds */
+
+
+/* Story */
+.storyGroup .storyPdf img {
+	border-radius: 20px;
+	margin: 5px;
+	transition: 0.5s;
+
+}
+
+.storyGroup .storyPdf img:hover {
+
+	box-shadow: 1px 3px 39px yellow;
+	
+}
+
+
+/* Fin story */
+
+
+/* contact us */
+
+#contact {
+	border-radius: 20px;
+}
+
+.formContact input:focus, textarea:focus, select:focus{
+	box-shadow: 1px 3px 39px 4px gold;
+
+}
+
+#contact,
+.sticky,
+#st-1,
+#st-2 {
+	position: absolute;
+	margin: 0px auto;
+	z-index: 0;
+	/* margin-top: -40px; */
+	/* margin-bottom: -5px; */
+
+}
+
+#st-1 {
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -10px;
+}
+
+#st-2 {
+	position: absolute;
+	margin-top: -22px;
+	margin-left: 930px;
+}
+
+
+
+
+.col-left {
+	width: 45%;
+	height: 600px;
+	transition: 300ms;
+	margin-right: 2px;
+}
+
+
+
+.col-left img {
+	width: 100%;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.col-right {
+	width: 45%;
+	height: 600px;
+	border-radius: 0px 20px 20px 0px;
+	background-color: black;
+	font-family: "Metronic Pro-5" !important;
+	opacity: 0.9;
+	margin-bottom: 60px;
+	background-image: url(../images/battlegrounds/bg-dragon.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+	/* transition: 300ms; */
+}
+
+.col-right input,
+select,
+textarea {
+	display: inline-block;
+	width: 300px;
+	margin: 20px auto !important;
+	/* outline: none; */
+	border: none;
+	border-bottom: 1px soldid white;
+	/* color: yellow; */
+	font-family: "Metronic Pro-5" !important;
+}
+
+.col-left:hover {
+	/* transform: scale(1.0001); */
+	box-shadow: 1px 3px 39px gold;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.col-right:hover {
+	/* transform: scale(1.0001); */
+	box-shadow: 1px 3px 39px gold;
+	border-radius: 0px 20px 20px 0px;
+}
+
+
+/* Fin contact us */
+
+/* wallpapers */
+
+#slider {
+	box-shadow: 1px 3px 39px gold;
+	border-radius: 10px;
+}
+
+
+/* Fin wallpapers */
+
+
+/* Fin contenido */
+
+
+/* footer */
+footer {
+	width: 100%;
+	/* sh */
+	margin: 40px auto 0px;
+	/* margin: 0px auto;
+	margin-top: 40px; */
+	text-align: center;
+
+	/* background: -webkit-linear-gradient(to bottom, #092b99, #061161); */
+
+	background: linear-gradient(to bottom, #092b99, rgb(60, 2, 136));
+	/* background: linear-gradient(to bottom, rgb(60, 2, 136), #092b99);  */
+
+	/* sh */
+	padding: 10px 0px;
+	/* padding-top: 10px;
+	padding-bottom: 10px; */
+
+	color: white;
+
+	/* sh */
+	font: 18px "Metronic Pro Air", Helvetica, sans-serif, Arial;
+	/* font-family: sans-serif, Arial, Helvetica;
+	font-size: 14px; */
+
+	box-shadow: 0px 0px 20px gray;
+}
+
+/* iconos footer */
+.icon-group-1 img {
+	width: 125px;
+}
+
+.socialMedia-group img {
+	width: 60px;
+	transition: 0.5s;
+}
+
+/* Fin iconos footer */
+
+
+/* Fin footer */

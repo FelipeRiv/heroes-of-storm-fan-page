@@ -1,0 +1,14 @@
+.icon-group-1 figure:first-child:hover{
+    
+  animation-name: rubberBand;
+}
+
+.socialMedia-group img:hover{
+    
+    animation-name: pulse;
+    transform: scale(1.2);
+}
+
+#img-nav:hover{
+    animation-name: rotateIn;
+}

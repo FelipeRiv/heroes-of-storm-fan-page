@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: 'Metronic Pro-4';
+    src: url('MetronicPro-Black.eot');
+    src: local('Metronic Pro Black'), local('MetronicPro-Black'),
+        url('MetronicPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('MetronicPro-Black.woff2') format('woff2'),
+        url('MetronicPro-Black.woff') format('woff'),
+        url('MetronicPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metronic Pro-5';
+    src: url('MetronicPro-Light.eot');
+    src: local('Metronic Pro Light'), local('MetronicPro-Light'),
+        url('MetronicPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('MetronicPro-Light.woff2') format('woff2'),
+        url('MetronicPro-Light.woff') format('woff'),
+        url('MetronicPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Metronic Pro-10';
+    src: url('MetronicPro.eot');
+    src: local('Metronic Pro'), local('MetronicPro'),
+        url('MetronicPro.eot?#iefix') format('embedded-opentype'),
+        url('MetronicPro.woff2') format('woff2'),
+        url('MetronicPro.woff') format('woff'),
+        url('MetronicPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
