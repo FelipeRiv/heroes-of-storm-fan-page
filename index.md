@@ -1,3 +1,3 @@
 ---
-permalink: /index.md
+permalink: /index.html
 ---
