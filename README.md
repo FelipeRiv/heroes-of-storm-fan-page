@@ -8,7 +8,7 @@ Animations with CSS Animate
 
 `````
 https://feliperiv.github.io/heroes-of-the-storm-fan-page/
-````
+`````
 
 ## License.
 [MIT](https://choosealicense.com/licenses/mit/)
